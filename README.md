@@ -57,16 +57,16 @@ python bot.py
 ---
 
 ### 🔐 Security Notes
-Never commit .env — it’s already in .gitignore.
-User data (surnames.json) stores only Telegram user IDs and surnames. Clear it before public sharing.
-The bot runs locally — no external server required.
+Never commit `.env` — it’s already in .gitignore.  
+User data (surnames.json) stores only Telegram user IDs and surnames. Clear it before public sharing.  
+The bot runs locally — no external server required.  
 
 ### 🛠 Tech Stack
-Python 3.9+
-aiogram 3.x — modern async Telegram framework
-OpenRouter — unified API for LLMs
-httpx — async HTTP client
-python-dotenv — environment management
+Python 3.9+  
+aiogram 3.x — modern async Telegram framework  
+OpenRouter — unified API for LLMs  
+httpx — async HTTP client  
+python-dotenv — environment management  
 
 ### 📜 License
 This project is licensed under the MIT License — see LICENSE for details.
